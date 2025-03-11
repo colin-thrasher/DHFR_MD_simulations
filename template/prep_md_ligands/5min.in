@@ -1,0 +1,22 @@
+Minimization of solvent
+ &cntrl
+  imin = 1, 	 ! Minimization on
+  ntmin=1,  	 ! Method of minimization, 1 uses steepest gradient then conjugate gradient
+  maxcyc = 1000,  ! How many cycles to run
+  ncyc = 30,     ! How many cycles at steepest gradient
+  irest = 1,     ! Restart simulation from previous .rst7 file
+  ntx = 5,  	 ! Read coordinates and velocities from rst7 coordinate file
+  ntwe = 0,  	 ! No mden files are switten
+  ntwr = 500, 	 ! Every ntwr steps the restart file will be written
+  ntwx = 0,  	 ! No .crd trajectory file written, not applicable for minimization
+  ntpr = 50, 	 ! Print to output file every N cycles
+  ntc = 2,  	 ! Bonds involving H are constrained
+  ntf = 2,  	 ! Bonds involving H are omitted from force evaluation
+  ntb = 1,  	 ! There is constant volume
+  ntp = 0,  	 ! There is pressure scaling
+  cut = 8.0,    ! Nonbonded cutoff distance in Angstroms
+  ntr=1,  	 ! Turn restrainmask on
+  restraintmask = '@CA,N,C',   ! Set positional restraints on backbone atoms
+  restraint_wt = 5, ! Set strong positional restraint in kcal/mol*Ang^-2
+  ntxo=2,  	 ! Output final coordinates in recommended NetCDF file format
+ &end

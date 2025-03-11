@@ -1,0 +1,12 @@
+Initial minimization of solvent and ions
+&cntrl
+  imin=1,        ! Run minimization
+  maxcyc=15000,   ! Maximum number of cycles
+  ncyc=5000,     ! Switch from steepest descent to conjugate gradient
+  ntb=1,         ! Constant volume
+  cut=8.0,       ! Non-bonded cutoff (angstroms)
+  ntr=1,         ! Restraints active
+  restraint_wt=10.0, ! Restraint weight (kcal/mol/Å²)
+  restraintmask='!:WAT & !:Na+ & !:Cl-', ! Restrain everything except water and ions
+/
+

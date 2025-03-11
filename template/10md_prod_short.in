@@ -1,0 +1,22 @@
+Explicit solvent molecular dynamics constant pressure 500 ns MD
+ &cntrl
+   imin=0,              ! Minimization OFF
+   nstlim=2500,        ! There are nstlim MD-steps
+   dt=0.002,            ! Timestep of 2 femtoseconds
+   irest=1,             ! Restart simulaton from previously saved restart files
+   ntx=5,               ! Read coordinates AND velocities from rst7 crd file
+   ntpr=200,            ! Write to 'mdout' and 'mdinfo' files every ntpr steps
+   ntwx=200,            ! Write coordinates to 'mdcrd' file every ntwx steps
+   ntwr=200,            ! Write to 'restart' file every ntwr steps.
+   ntt=3,               ! Langevin thermostat for temperature control is set.
+   temp0=298,           ! The referemce temperature is 298.0 K
+   gamma_ln=1.0,        ! The collision frequency gamma is set to 1 picosecond.
+   ig=-1,               ! Set random seed based on time and date of run
+   ntp=1,               ! Use isotropic position scaling
+   ntc=2,               ! Bonds involving H are constrained.
+   ntf=2,               ! Bonds involving H are omitted from force evaluation
+   cut=9,               ! The non-bonded cutoff is 'cut' Angstroms.
+   ntb=2,               ! Constant pressure ON
+   iwrap=1,             ! No wrapping is performed.
+   ioutfm=1,            ! Write coordinate/velocity trajectory files as binary NetCDF
+/

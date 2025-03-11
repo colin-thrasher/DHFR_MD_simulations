@@ -1,0 +1,33 @@
+initial heating mdin
+ &cntrl
+  imin = 0,           ! Minimization OFF
+  nstlim = 15000,     ! There are nstlim MD-steps. 
+  dt = 0.001,         ! Time step of 1 femtoseconds 
+  irest = 0,          ! Run a new simulation, i.e. no restart
+  ntx = 1,            ! Read coordinates and velocities from rst7 coordinate file
+  ig = -1,            ! Set random seed based on time and date of run
+  tempi = 100.0,      ! The initial temperature is 100.0 K.
+  temp0 = 298.0,      ! The reference temperature is set to 298.0 K 
+  ntc = 2,            ! Bonds involving H are constrained. 
+  ntf = 2,            ! Bonds involving H are omitted from force evaluation. 
+  tol = 0.00001,      ! The error of tolerance is 'tol' Angstroms.
+  ntwx = 10000,       ! Write coordinates to 'mdcrd' file every ntwx steps 
+  ntwe = 0,           ! No mden files are written.
+  ntwr = 1000,        ! Write to 'restart' file every ntwr steps. 
+  ntpr = 1000,        ! Write to 'mdout' and 'mdinfo' files every ntpr steps  
+  cut = 8.0,          ! The non-bonded cutoff is 8.0 Angstroms.
+  iwrap = 0,          ! No wrapping is performed.
+  ntt = 3,            ! Langevin thermostat for temperature control is set.
+  gamma_ln=1.0,       ! The collision frequency gamma is set to 1 picosecond. 
+  ntb = 1,            ! Constant volume ON
+  ntp = 0,            ! Pressure scaling OFF
+  nscm = 0,           ! Removal of center of mass motion OFF
+  ntr = 1,            ! Turn atom restrain ON
+  restraintmask = ':1-186',  ! Restrain atoms
+  restraint_wt = 10,  ! Positional restraint is 10 kcal/mol*Ang^-2.
+  nmropt = 1,         ! NMR restraints and weight changes will be read. 
+  ioutfm = 1,         ! The format of the coordinate and velocity trajectory files written as binary NetCDF.
+  ntxo=2,             ! Put Final coordinates for restart fle in recommended NetCDF file format
+  /
+  &wt TYPE="TEMP0", istep1=0, istep2=13500, value1=100.0, value2=298.0, /
+  &wt TYPE="END", /

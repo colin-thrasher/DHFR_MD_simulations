@@ -1,0 +1,114 @@
+CRYST1   67.185   73.396   67.771  90.00  90.00  90.00 P 1           1
+HETATM    1  N   FOL   161       2.934  -6.576  -0.529  1.00  0.00           N  
+HETATM    2  C   FOL   161       5.863  -3.396 -10.247  1.00  0.00           C  
+HETATM    3  O   FOL   161       7.587  -1.091  -9.431  1.00  0.00           O  
+HETATM    4  C1  FOL   161       6.853  -1.647  -8.621  1.00  0.00           C  
+HETATM    5  O1  FOL   161       6.367  -6.895 -12.424  1.00  0.00           O  
+HETATM    6  C2  FOL   161       6.312  -4.865 -10.043  1.00  0.00           C  
+HETATM    7  N2  FOL   161       2.207  -4.316  -1.166  1.00  0.00           N  
+HETATM    8  O2  FOL   161       7.739  -7.623 -10.910  1.00  0.00           O  
+HETATM    9  C3  FOL   161       7.401  -5.298 -11.049  1.00  0.00           C  
+HETATM   10  N3  FOL   161       4.228  -5.238  -1.959  1.00  0.00           N  
+HETATM   11  O3  FOL   161       3.472  -3.590 -10.063  1.00  0.00           O  
+HETATM   12  C4  FOL   161       7.194  -6.731 -11.534  1.00  0.00           C  
+HETATM   13  N4  FOL   161       5.179   0.849  -3.725  1.00  0.00           N  
+HETATM   14  O4  FOL   161       4.207  -2.897 -11.917  1.00  0.00           O  
+HETATM   15  C5  FOL   161       2.940  -5.376  -1.424  1.00  0.00           C  
+HETATM   16  N5  FOL   161       4.498  -1.505  -2.194  1.00  0.00           N  
+HETATM   17  O5  FOL   161       5.958  -3.907  -2.512  1.00  0.00           O  
+HETATM   18  C6  FOL   161       4.792  -4.024  -2.203  1.00  0.00           C  
+HETATM   19  C7  FOL   161       4.007  -2.844  -1.652  1.00  0.00           C  
+HETATM   20  N7  FOL   161       1.697  -2.032  -1.552  1.00  0.00           N  
+HETATM   21  C8  FOL   161       2.212  -0.664  -1.740  1.00  0.00           C  
+HETATM   22  C9  FOL   161       3.374  -0.657  -2.759  1.00  0.00           C  
+HETATM   23  C10 FOL   161       2.533  -3.141  -1.661  1.00  0.00           C  
+HETATM   24  N10 FOL   161       5.983  -2.664  -8.966  1.00  0.00           N  
+HETATM   25  C11 FOL   161       3.795   0.785  -3.170  1.00  0.00           C  
+HETATM   26  C12 FOL   161       6.498  -1.045  -7.280  1.00  0.00           C  
+HETATM   27  C13 FOL   161       7.434  -0.433  -6.415  1.00  0.00           C  
+HETATM   28  C14 FOL   161       6.997   0.189  -5.220  1.00  0.00           C  
+HETATM   29  C15 FOL   161       5.629   0.210  -4.876  1.00  0.00           C  
+HETATM   30  C16 FOL   161       4.716  -0.405  -5.733  1.00  0.00           C  
+HETATM   31  C17 FOL   161       5.143  -1.041  -6.896  1.00  0.00           C  
+HETATM   32  C18 FOL   161       4.417  -3.357 -10.804  1.00  0.00           C  
+HETATM   33  H   FOL   161       5.374  -2.981  -8.226  1.00  0.00           H  
+HETATM   34  HN2 FOL   161       4.947  -1.025  -1.401  1.00  0.00           H  
+HETATM   35  HA  FOL   161       6.496  -2.909 -10.998  1.00  0.00           H  
+HETATM   36  HB1 FOL   161       5.447  -5.532 -10.135  1.00  0.00           H  
+HETATM   37  HB2 FOL   161       6.681  -5.023  -9.022  1.00  0.00           H  
+HETATM   38  HG1 FOL   161       8.390  -5.197 -10.585  1.00  0.00           H  
+HETATM   39  HG2 FOL   161       7.387  -4.654 -11.936  1.00  0.00           H  
+HETATM   40  HC  FOL   161       3.041  -1.157  -3.672  1.00  0.00           H  
+HETATM   41  H1  FOL   161       2.047  -7.075  -0.553  1.00  0.00           H  
+HETATM   42  H2  FOL   161       3.664  -7.281  -0.797  1.00  0.00           H  
+HETATM   43  H3  FOL   161       4.917  -5.996  -2.027  1.00  0.00           H  
+HETATM   44  H4  FOL   161       3.732   1.430  -2.284  1.00  0.00           H  
+HETATM   45  H5  FOL   161       3.071   1.172  -3.897  1.00  0.00           H  
+HETATM   46  H6  FOL   161       5.851   1.404  -3.210  1.00  0.00           H  
+HETATM   47  H7  FOL   161       8.496  -0.443  -6.658  1.00  0.00           H  
+HETATM   48  H8  FOL   161       7.722   0.679  -4.574  1.00  0.00           H  
+HETATM   49  H9  FOL   161       3.656  -0.375  -5.526  1.00  0.00           H  
+HETATM   50  H10 FOL   161       4.384  -1.488  -7.524  1.00  0.00           H  
+HETATM   51  H11 FOL   161       1.419   0.016  -2.044  1.00  0.00           H  
+HETATM   52  H12 FOL   161       2.604  -0.323  -0.774  1.00  0.00           H  
+HETATM   53  H13 FOL   161       0.955  -2.124  -0.868  1.00  0.00           H  
+HETATM   54  H14 FOL   161       3.096  -6.365   0.466  1.00  0.00           H  
+HETATM   55  H15 FOL   161       4.258  -2.855  -0.597  1.00  0.00           H  
+HETATM   56  H16 FOL   161       5.254  -1.665  -2.887  1.00  0.00           H  
+CONECT    1   15   41   42   54
+CONECT    2    6   32   35   24
+CONECT    3    4
+CONECT    4    3   26   24
+CONECT    5   12
+CONECT    6    2    9   36   37
+CONECT    7   15   23
+CONECT    8   12
+CONECT    9    6   12   38   39
+CONECT   10   18   43   15
+CONECT   11   32
+CONECT   12    9    5    8
+CONECT   13   29   46   25
+CONECT   14   32
+CONECT   15    1    7   10
+CONECT   16   22   34   56   19
+CONECT   17   18
+CONECT   18   10   17   19
+CONECT   19   18   16   23   55
+CONECT   20   53   21   23
+CONECT   21   20   51   52   22
+CONECT   22   16   21   25   40
+CONECT   23    7   19   20
+CONECT   24    2    4   33
+CONECT   25   22   13   44   45
+CONECT   26    4   27   31
+CONECT   27   26   28   47
+CONECT   28   27   29   48
+CONECT   29   13   28   30
+CONECT   30   29   31   49
+CONECT   31   26   30   50
+CONECT   32    2   11   14
+CONECT   33   24
+CONECT   34   16
+CONECT   35    2
+CONECT   36    6
+CONECT   37    6
+CONECT   38    9
+CONECT   39    9
+CONECT   40   22
+CONECT   41    1
+CONECT   42    1
+CONECT   43   10
+CONECT   44   25
+CONECT   45   25
+CONECT   46   13
+CONECT   47   27
+CONECT   48   28
+CONECT   49   30
+CONECT   50   31
+CONECT   51   21
+CONECT   52   21
+CONECT   53   20
+CONECT   54    1
+CONECT   55   19
+CONECT   56   16
+END
