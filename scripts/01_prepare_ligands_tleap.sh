@@ -8,8 +8,8 @@
 
 module load pymol
 
-base_dir="/users/3/pier0273/amber"
-reference_dir="${base_dir}/ligand_MD/reference_files"
+base_dir="/users/3/pier0273/amber/run_MD_sims"
+reference_dir="${base_dir}/reference_files"
 
 # Predefined variants (add more as needed)
 variants=("1rx2"

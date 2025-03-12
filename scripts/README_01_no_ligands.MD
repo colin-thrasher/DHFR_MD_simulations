@@ -11,6 +11,7 @@ To successfully run this script, ensure the following requirements are met:
 3. **PyMOL Module**: The script loads `pymol`, so ensure it is available in your environment. On MSI, the default pymol module will suffice.
 4. **Cleaned PDB Files**: Each variant must have a cleaned PDB file (`cleaned_<variant>.pdb`) in a subdirectory with the same name.
 5. **Permissions**: Ensure you have the necessary permissions to read/write files in the specified directories.
+6. Update the base_dir if necessay
 
 ## Script Execution
 

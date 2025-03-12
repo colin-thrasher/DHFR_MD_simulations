@@ -10,7 +10,7 @@ module load pymol
 
 
 # Set base directory
-base_dir="/users/3/pier0273/amber"
+base_dir="/users/3/pier0273/amber/run_MD_sims"
 
 # Predefined variants (add more as needed)
 variants=("1rx2"

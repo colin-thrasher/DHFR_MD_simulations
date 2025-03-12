@@ -16,6 +16,7 @@ To successfully run this script, ensure the following requirements are met:
    - `min_NADPH.mol2` and `min_DHF.mol2`: Ligand structure files.
    - `min_NADPH.frcmod` and `min_DHF.frcmod`: Force field parameters for ligands.
 6. **Permissions**: Ensure you have read/write access to the directories involved.
+7. Update the base_dir and reference_dir, if necessary
 
 ## Script Execution
 
