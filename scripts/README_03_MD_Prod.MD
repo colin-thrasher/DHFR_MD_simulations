@@ -1,4 +1,4 @@
-# README: Molecular Dynamics Production Run Script
+# README: Molecular Dynamics Production Run Script (03_MD_production_500_ns.sh)
 
 ## Overview
 
@@ -16,7 +16,7 @@ To successfully run this script, ensure the following requirements are met:
 6. Ensure that sufficient resources are available, typically 12 hours of runtime per variant where each variant has 3 reps
 7. **Permissions**: Ensure you have the necessary permissions to run the script and modify files in the target directories.
 8. Set user's email address in the SLURM header
-
+9. Review and update filepaths as needed and ensure that required files are in the corresponding directories.
 
 
 ## Script Execution
@@ -39,8 +39,8 @@ sbatch -p GPU_queue_name 03_MD_production_500_ns.sh
 
 - **Base and Template Directories:**
 
-  - `base_dir` is set to `/users/3/pier0273/amber`.
-  - The input template file is stored in `/users/3/pier0273/amber/template`.
+  - `base_dir` is set to `/users/3/pier0273/amber/run_MD_sims`.
+  - The input template file is stored in `/users/3/pier0273/amber/run_MD_sims/scripts/template`.
 
 - **Processing Variants:**
 
@@ -50,11 +50,11 @@ sbatch -p GPU_queue_name 03_MD_production_500_ns.sh
 
 - **Running MD Simulations:**
 
-  - The script runs a single replicate (rep 4) for each variant using `pmemd.cuda`.
+  - The script runs 3 replicates [rep123] for each variant using `pmemd.cuda`.
   - Simulation outputs include:
-    - `10md_prod_500_ns_<variant>_rep4.out` (log file)
-    - `10md_prod_500_ns_<variant>_rep4.rst7` (restart file)
-    - `mdcrd_<variant>_rep4.10nc_500ns` (trajectory file)
+    - `10md_prod_500_ns_<variant>_rep123.out` (log file)
+    - `10md_prod_500_ns_<variant>_rep123.rst7` (restart file)
+    - `mdcrd_<variant>_rep123.10nc_500ns` (trajectory file)
 
 - **Logging and Error Handling:**
 
@@ -89,10 +89,6 @@ Each variant directory will contain:
 - To add more variants, update the `variant_dirs` array.
 - To adjust Slurm resource requests, modify the `#SBATCH` directives.
 - To run multiple replicates, adjust the loop in the `for i in {1..3}` section.
-
----
-
-This script ensures efficient automation of molecular dynamics simulations, reducing manual setup errors and improving reproducibility.
 
 
 

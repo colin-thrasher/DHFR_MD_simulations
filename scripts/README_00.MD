@@ -1,4 +1,4 @@
-# README: PDB Cleaning Script with pdb4amber
+# README: PDB Cleaning Script with pdb4amber (00_clean_pdb_files.sh)
 
 ## Overview
 This script automates the cleaning of PDB files for multiple protein variants using `pdb4amber`. Each variant is stored in its respective directory, and the script checks for the existence of both the directory and the input PDB file before processing.

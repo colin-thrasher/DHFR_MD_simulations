@@ -1,4 +1,4 @@
-# README: Ligand Minimization and Preparation Script (02_minimize_ligands.sh)
+# README: Ligand Minimization and Preparation Script (02_minimize_equil_MD_system_ligands.sh)
 
 ## Overview
 This script automates the preparation and minimization of ligand-bound molecular systems for molecular dynamics (MD) simulations. It sets up the necessary directories, copies input files from a template, and executes a series of predefined minimization and equilibration scripts sequentially.
@@ -9,8 +9,8 @@ To successfully run this script, ensure the following requirements are met:
 1. **HPC Access**: The script is designed for execution on an HPC system using Slurm as the job scheduler.
 2. **AMBER Installed**: The required AMBER tools must be installed and accessible.
 3. **GPU Access**: The script requests GPU resources (`--gres=gpu`) for MD simulations.
-4. **Template Directory Exists**: The template files for ligand preparation must be available at `/users/3/pier0273/amber/template/prep_md_ligands`.
-5. **Variant Directories Exist**: The ligand-bound protein variants must be located in `/users/3/pier0273/amber/ligand_MD/`.
+4. **Template Directory Exists**: The template files for ligand preparation must be available at `/users/3/pier0273/amber/run_MD_sims/scripts/template/prep_md_ligands`.
+5. **Variant Directories Exist**: The ligand-bound protein variants must be located in `/users/3/pier0273/amber/run_MD_sims/ligand_MD/`.
 6. **Permissions**: Ensure you have read/write access to the necessary directories.
 
 ## Script Execution

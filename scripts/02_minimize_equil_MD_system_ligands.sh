@@ -8,10 +8,10 @@
 #SBATCH --mail-user=pier0273@umn.edu   # Email address to receive notifications
 
 # Base directory
-base_dir="/users/3/pier0273/amber/ligand_MD"
+base_dir="/users/3/pier0273/amber/run_MD_sims/ligand_MD"
 
 # Template directory
-template_dir="/users/3/pier0273/amber/template/prep_md_ligands"
+template_dir="/users/3/pier0273/amber/run_MD_sims/template/prep_md_ligands"
 
 # Define the directories for the variants here
 variant_dirs=(

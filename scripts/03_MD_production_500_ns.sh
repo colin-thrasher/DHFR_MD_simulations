@@ -69,7 +69,7 @@ for variant_dir in "${variant_dirs[@]}"; do
     log "Processing $variant_dir for MD production"
 
     # Run the production MD simulation for 500 ns
-    for i in {4..4}; do
+    for i in {1..3}; do
         log "Running replicate ${i} for $variant_dir"
 
         pmemd.cuda -O -i "$md_input_file" -p "${variant_dir}.prmtop" \
