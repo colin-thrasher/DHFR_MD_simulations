@@ -1,4 +1,4 @@
-README. DHFR_MD_Simulations
+DHFR_MD_Simulations
 
 This repository contains scripts and files to run molecular dynamics (MD) simulations focused on mouse dihydrofolate reductase (DHFR) protein variants containing domain insertions.
 Repository Structure
